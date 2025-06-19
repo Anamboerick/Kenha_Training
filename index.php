@@ -34,7 +34,14 @@
             </form>
         </div>
     </div>
-   <script src="script.js"></script>
+   <script src="script.js"></script> 
+    <script>
+        function showForm(formId) {
+            document.getElementById('login-form').classList.remove('active');
+            document.getElementById('register-form').classList.remove('active');
+            document.getElementById(formId).classList.add('active');
+        }
+    </script>
 
 </body>
 </html>
