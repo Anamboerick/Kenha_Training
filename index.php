@@ -30,7 +30,7 @@
 </select>
 
                 <button type="submit" name="register">Register</button>
-                <p>Already have an account? <a href="#"onclick="showForm('login-form')">Login</a></p>
+                <p>Already have a account? <a href="#"onclick="showForm('login-form')">Login</a></p>
             </form>
         </div>
     </div>
